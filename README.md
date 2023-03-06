@@ -1,2 +1,2 @@
-# plants
-Tutorial using PLANTS (Protein-Ligand ANTSystem)
+# PLANTS  (Protein-Ligand ANTSystem)
+Tutorial using PLANTS
