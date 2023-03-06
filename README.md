@@ -5,10 +5,10 @@
 2. [Plants](https://github.com/purnawanpp/plants/blob/main/plants)
 
 ### Software Installation:
-1. chmod +x spores
-2. chmod +x plants
-3. ./spores
-4. ./plants
+1. `chmod +x spores`
+2. `chmod +x plants`
+3. `./spores`
+4. `./plants`
 5. Create a [path](https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7) to make it easier to use in the terminal 
 
 ### Preparation and Molecular Docking
