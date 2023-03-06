@@ -1,6 +1,8 @@
 # Tutorial using PLANTS (Protein-Ligand ANTSystem) version 1.2
 
-### Software Requaired and [download](http://www.tcd.uni-konstanz.de/plants_download/):
+### [Download Software](http://www.tcd.uni-konstanz.de/plants_download/)
+
+### Software Requaired:
 1. [Spores](http://www.tcd.uni-konstanz.de/plants_download/) 
 2. [Plants](http://www.tcd.uni-konstanz.de/plants_download/)
 
