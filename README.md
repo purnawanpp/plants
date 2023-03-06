@@ -1,4 +1,14 @@
 # Tutorial using PLANTS (Protein-Ligand ANTSystem) version 1.2
+Software Requaired:
+1. [Spores](https://github.com/purnawanpp/plants/blob/main/spores) 
+2. [Plants](https://github.com/purnawanpp/plants/blob/main/plants)
+
+Software Installation:
+1. chmod +x spores
+2. chmod +x plants
+3. ./spores
+4. ./plants
+5. Create a [path](https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7) to make it easier to use in the terminal 
 Preparation and Molecular Docking
 1. Separate protein, ligand and water using spores with the command:`spores --mode splitpdb 3htb.pdb`
 2. Later you will get a file with the protein with the name *protein.mol2* and the ligand with the name *ligand_JZ4167_0.mol2*
@@ -12,7 +22,7 @@ Preparation and Molecular Docking
 `plants --mode screen dock.txt`
 7. Open the output folder, there will be a file with the name bestranking.csv in that information. The Total Score is the result of the free energy calculation as a result of molecular docking
 
-Meaning input in [dock.txt](https://github.com/purnawanpp/plants/blob/main/dock.txt)
+Meaning input in [dock.txt](https://github.com/purnawanpp/plants/blob/main/dock.txt):
 1. `scoring_function chemplp`: determines the type of scoring function used, in this case using ChemPLP.
 2. `search_speed speed1`: determines the search speed used, in this case using speed1.
 3. `protein_file rec.mol2`: specifies the protein file that will be used as the docking target.
@@ -24,4 +34,10 @@ Meaning input in [dock.txt](https://github.com/purnawanpp/plants/blob/main/dock.
 9. `bindingsite_radius 3.75624`: determines the radius of the binding site between the protein and the ligand.
 10. `cluster_structures 10`: determines the number of docked structures that will be clustered.
 11. `cluster_rmsd 2.0`: determines the maximum RMSD value allowed for structures to be clustered. Structures with an RMSD value lower than this value will be clustered together.
+
+Reference:
+1. https://github.com/purnawanpp/plants/blob/main/plants_manual1.2.pdf
+2. https://github.com/purnawanpp/plants/blob/main/spores_manual.pdf
+3. https://github.com/purnawanpp/plants/blob/main/pharmaCO_manual.pdf
+
 
