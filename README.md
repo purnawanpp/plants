@@ -23,6 +23,8 @@
 6. Run molecular docking with the command:
 `plants --mode screen dock.txt`
 7. Open the output folder, there will be a file with the name bestranking.csv in that information. The Total Score is the result of the free energy calculation as a result of molecular docking
+8. Calculation RMSD run this command (Warning! */mnt/d/Software/PLANTS/kuy/results/ is path of folder*): 
+<br>`obrms -f lig.mol2 /mnt/d/Software/PLANTS/kuy/results/lig.pdb_entry_00001_conf_01.mol2`
 
 ### Meaning input in [dock.txt](https://github.com/purnawanpp/plants/blob/main/dock.txt):
 1. `scoring_function chemplp`: determines the type of scoring function used, in this case using ChemPLP.
