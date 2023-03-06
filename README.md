@@ -10,7 +10,8 @@
 3. ./spores
 4. ./plants
 5. Create a [path](https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7) to make it easier to use in the terminal 
-Preparation and Molecular Docking
+
+### Preparation and Molecular Docking
 1. Separate protein, ligand and water using spores with the command:`spores --mode splitpdb 3htb.pdb`
 2. Later you will get a file with the protein with the name *protein.mol2* and the ligand with the name *ligand_JZ4167_0.mol2*
 3. Open file protein.mol2 in the chimera, Tools > Structure Editing > Dock Prep > Ok > Ok > On Assign Charges for dock prep click AM1-BCC and standard residues > File > Save PDB > overwrite file namely **rec.mol2** file
