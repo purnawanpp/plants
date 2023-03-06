@@ -1,5 +1,6 @@
 # Tutorial using PLANTS (Protein-Ligand ANTSystem) version 1.2
-Software Requaired:
+
+### Software Requaired:
 1. [Spores](https://github.com/purnawanpp/plants/blob/main/spores) 
 2. [Plants](https://github.com/purnawanpp/plants/blob/main/plants)
 
