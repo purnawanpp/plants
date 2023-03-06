@@ -3,7 +3,7 @@ Software Requaired:
 1. [Spores](https://github.com/purnawanpp/plants/blob/main/spores) 
 2. [Plants](https://github.com/purnawanpp/plants/blob/main/plants)
 
-Software Installation:
+### Software Installation:
 1. chmod +x spores
 2. chmod +x plants
 3. ./spores
@@ -12,8 +12,8 @@ Software Installation:
 Preparation and Molecular Docking
 1. Separate protein, ligand and water using spores with the command:`spores --mode splitpdb 3htb.pdb`
 2. Later you will get a file with the protein with the name *protein.mol2* and the ligand with the name *ligand_JZ4167_0.mol2*
-3. Open file protein.mol2 in the chimera, Tools > Structure Editing > Dock Prep > Ok > Ok > On Assign Charges for dock prep click AM1-BCC and standard residues > File > Save PDB > overwrite the rec.mol2 file
-4. Open ligand in chimera, Tools > Structure Editing > Dock Prep > Ok > Ok > On Assign Charges for dock prep click AM1-BCC and nonstandard residues > File > Save PDB > overwrite file lig.mol2
+3. Open file protein.mol2 in the chimera, Tools > Structure Editing > Dock Prep > Ok > Ok > On Assign Charges for dock prep click AM1-BCC and standard residues > File > Save PDB > overwrite file namely **rec.mol2** file
+4. Open ligand in chimera, Tools > Structure Editing > Dock Prep > Ok > Ok > On Assign Charges for dock prep click AM1-BCC and nonstandard residues > File > Save PDB > overwrite file **lig.mol2**
 5. Add protonation using: `spores --mode protstates lig.mol2 ligprotonated.mol2`
 4. Determine the binding site definition with the command: `plants --mode bind lig.mol2 rec.mol2`
 5. Copy info bindingsite_center and bidingsite_radius into [dock.txt](https://github.com/purnawanpp/plants/blob/main/dock.txt):
@@ -22,7 +22,7 @@ Preparation and Molecular Docking
 `plants --mode screen dock.txt`
 7. Open the output folder, there will be a file with the name bestranking.csv in that information. The Total Score is the result of the free energy calculation as a result of molecular docking
 
-Meaning input in [dock.txt](https://github.com/purnawanpp/plants/blob/main/dock.txt):
+### Meaning input in [dock.txt](https://github.com/purnawanpp/plants/blob/main/dock.txt):
 1. `scoring_function chemplp`: determines the type of scoring function used, in this case using ChemPLP.
 2. `search_speed speed1`: determines the search speed used, in this case using speed1.
 3. `protein_file rec.mol2`: specifies the protein file that will be used as the docking target.
@@ -35,7 +35,7 @@ Meaning input in [dock.txt](https://github.com/purnawanpp/plants/blob/main/dock.
 10. `cluster_structures 10`: determines the number of docked structures that will be clustered.
 11. `cluster_rmsd 2.0`: determines the maximum RMSD value allowed for structures to be clustered. Structures with an RMSD value lower than this value will be clustered together.
 
-Reference:
+### Reference:
 1. https://github.com/purnawanpp/plants/blob/main/plants_manual1.2.pdf
 2. https://github.com/purnawanpp/plants/blob/main/spores_manual.pdf
 3. https://github.com/purnawanpp/plants/blob/main/pharmaCO_manual.pdf
