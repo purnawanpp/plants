@@ -1,8 +1,8 @@
 # Tutorial using PLANTS (Protein-Ligand ANTSystem) version 1.2
 
 ### Software Requaired:
-1. [Spores](https://github.com/purnawanpp/plants/blob/main/spores) 
-2. [Plants](https://github.com/purnawanpp/plants/blob/main/plants)
+1. [Spores](http://www.tcd.uni-konstanz.de/plants_download/newuser.php) 
+2. [Plants](http://www.tcd.uni-konstanz.de/plants_download/newuser.php)
 
 ### Software Installation:
 1. `chmod +x spores`
