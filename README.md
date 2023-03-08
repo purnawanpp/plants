@@ -32,13 +32,12 @@
 2. `search_speed speed1`: determines the search speed used, in this case using speed1.
 3. `protein_file rec.mol2`: specifies the protein file that will be used as the docking target.
 4. `ligand_file ligprotonated.mol2`: specifies the ligand file that will be docked to the protein.
-5. `flexible_protein_side_chain_number 11`: allows the protein to move flexibly at side positions (we choose active site, please check uniprot).
-6. `output_dir results`: specifies the folder where the output results will be stored.
-7. `write_multi_mol2 0`: determines whether the docking results will be saved in a single file or multiple files. If set to 0, the docking results will be saved in a single file.
-8. `bindingsite_center 22.7142 -25.2627 -3.283`: determines the center coordinates of the binding site between the protein and the ligand.
-9. `bindingsite_radius 3.75624`: determines the radius of the binding site between the protein and the ligand.
-10. `cluster_structures 10`: determines the number of docked structures that will be clustered.
-11. `cluster_rmsd 2.0`: determines the maximum RMSD value allowed for structures to be clustered. Structures with an RMSD value lower than this value will be clustered together.
+5. `output_dir results`: specifies the folder where the output results will be stored.
+6. `write_multi_mol2 0`: determines whether the docking results will be saved in a single file or multiple files. If set to 0, the docking results will be saved in a single file.
+7. `bindingsite_center 22.7142 -25.2627 -3.283`: determines the center coordinates of the binding site between the protein and the ligand.
+8. `bindingsite_radius 3.75624`: determines the radius of the binding site between the protein and the ligand.
+9. `cluster_structures 10`: determines the number of docked structures that will be clustered.
+10. `cluster_rmsd 2.0`: determines the maximum RMSD value allowed for structures to be clustered. Structures with an RMSD value lower than this value will be clustered together.
 
 ### Optional-Molecular Docking using google colab
 1. Please run this command in google colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/purnawanpp/plants/blob/main/plants.ipynb)
