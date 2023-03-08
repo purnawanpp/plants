@@ -6,7 +6,7 @@ search_speed speed1
 protein_file /content/rec.mol2
 ligand_file /content/lig.mol2
 # flexible docking
-flexible_protein_side_chain_11
+flexible_protein_side_chain_number 11
 # output
 output_dir /content/results
 # write single mol2 files (e.g. for RMSD calculation)
