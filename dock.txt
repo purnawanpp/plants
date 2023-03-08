@@ -2,7 +2,7 @@
 scoring_function chemplp
 search_speed speed1
 # input
-protein_file recprotonated.mol2
+protein_file rec.mol2
 ligand_file ligprotonated.mol2
 # output
 output_dir results
