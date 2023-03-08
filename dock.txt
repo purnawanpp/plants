@@ -5,7 +5,7 @@ search_speed speed1
 protein_file rec.mol2
 ligand_file ligprotonated.mol2
 # Docking using flexible docking oriented in active site, check website uniprot.org
-flexible_protein_side_chain_11
+flexible_protein_side_chain_number 11
 # output
 output_dir results
 # write single mol2 files (e.g. for RMSD calculation)
