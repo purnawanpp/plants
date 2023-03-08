@@ -3,6 +3,7 @@
 ### Software Requaired:
 1. [Spores](http://www.tcd.uni-konstanz.de/plants_download/) 
 2. [Plants](http://www.tcd.uni-konstanz.de/plants_download/)
+3. [Openbabel](https://github.com/openbabel/openbabel)
 
 ### [Download Software](http://www.tcd.uni-konstanz.de/plants_download/)
 
