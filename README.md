@@ -1,11 +1,9 @@
 # Tutorial using Protein-Ligand ANTSystem (PLANTS) version 1.2
 
-### Software Requaired:
+### Software Requaired and link to download:
 1. [Spores](http://www.tcd.uni-konstanz.de/plants_download/) 
 2. [Plants](http://www.tcd.uni-konstanz.de/plants_download/)
 3. [Openbabel](https://github.com/openbabel/openbabel)
-
-### [Download Software](http://www.tcd.uni-konstanz.de/plants_download/)
 
 ### Software Installation:
 1. `chmod +x spores`
