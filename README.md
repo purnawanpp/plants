@@ -42,7 +42,7 @@
 11. `cluster_rmsd 2.0`: determines the maximum RMSD value allowed for structures to be clustered. Structures with an RMSD value lower than this value will be clustered together.
 
 ### Optional-Molecular Docking using google colab
-1. Please run this command in google colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1o-Zxbvoq_lWF8R6tsD-FxT5kZnNkTQTz#scrollTo=KY_Qn_BXiHUN)
+1. Please run this command in google colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/purnawanpp/plants/blob/main/plants.ipynb)
 
 ### Reference:
 1. https://github.com/purnawanpp/plants/blob/main/plants_manual1.2.pdf
