@@ -2,7 +2,7 @@
 scoring_function chemplp
 search_speed speed1
 # input
-protein_file rec.mol2
+protein_file recprotonated.mol2
 ligand_file ligprotonated.mol2
 # Docking using flexible docking oriented in active site, check website uniprot.org
 flexible_protein_side_chain_number 11
