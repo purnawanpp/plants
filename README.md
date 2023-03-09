@@ -42,7 +42,7 @@
 9. `cluster_structures 10`: determines the number of docked structures that will be clustered.
 10. `cluster_rmsd 2.0`: determines the maximum RMSD value allowed for structures to be clustered. Structures with an RMSD value lower than this value will be clustered together.
 
-### OPSI 3-Tutorial using Protein-Ligand ANTSystem (PLANTS) and Chimera
+## OPSI 3-Tutorial using Protein-Ligand ANTSystem (PLANTS) and Chimera
 ### Preparation and Molecular Docking
 1. Separate protein, ligand and water using spores with the command:`spores --mode splitpdb 3htb.pdb`
 2. Later you will get a file with the protein with the name **protein.mol2** and the ligand with the name **ligand_JZ4167_0.mol2**
