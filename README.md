@@ -61,7 +61,7 @@
 ### Reference:
 1. https://github.com/purnawanpp/plants/blob/main/plants_manual1.2.pdf
 2. https://github.com/purnawanpp/plants/blob/main/spores_manual.pdf
-3. https://github.com/purnawanpp/plants/blob/main/pharmaCO_manual.pdf
-4. https://github.com/purnawanpp/plants/blob/main/plants_article.pdf
+3. https://github.com/purnawanpp/plants/blob/main/plants_article.pdf
+4. https://github.com/purnawanpp/plants/blob/main/spores_article.pdf
 
 
