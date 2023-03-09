@@ -21,7 +21,7 @@
 1. Separate protein, ligand and water using spores with the command:`spores --mode splitpdb 3htb.pdb`
 2. Later you will get a file with the protein with the name **protein.mol2** and the ligand with the name **ligand_JZ4167_0.mol2**
 3. Add protonation ligand: `spores --mode protstates ligand_JZ4167_0.mol2 ligprotonated.mol2`
-6. Determine the *binding_site* definition with the command: `plants --mode bind lig.mol2 rec.mol2`
+6. Determine the *binding_site* definition with the command: `plants --mode bind ligand_JZ4167_0.mol2 protein.mol2`
 7. Copy info bindingsite_center and bidingsite_radius into [dock.txt](https://github.com/purnawanpp/plants/blob/main/dock.txt):
 <br> `bindingsite_center 22.7142 -25.2627 -3.283` <br> `bindingsite_radius 3.75624`
 8. Run molecular docking with the command:
