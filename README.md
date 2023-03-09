@@ -13,7 +13,7 @@
 4. `./plants`
 5. Create a [path](https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7) to make it easier to use in the terminal 
 
-## OPSI 1-Molecular Docking using google colab
+## OPSI 1-PLANTS in Google Colab
 1. Please run this command in google colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/purnawanpp/plants/blob/main/plants.ipynb)
 
 ## OPSI 2-Tutorial using Protein-Ligand ANTSystem (PLANTS) and Structure PrOtonation and REcognition System  (SPORES)
