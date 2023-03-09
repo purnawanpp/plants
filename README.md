@@ -53,7 +53,7 @@
 7. Copy info bindingsite_center and bidingsite_radius into [dock.txt](https://github.com/purnawanpp/plants/blob/main/dock_opsi3.txt):
 <br> `bindingsite_center 22.7142 -25.2627 -3.283` <br> `bindingsite_radius 3.75624`
 8. Run molecular docking with the command:
-`plants --mode screen dock.txt`
+`plants --mode screen dock_opsi3.txt`
 9. Open the output folder, there will be a file with the name bestranking.csv in that information. The Total Score is the result of the free energy calculation as a result of molecular docking
 10. Calculation RMSD run this command (Warning! */mnt/d/Software/PLANTS/kuy/results/* is path of folder): 
 <br>`obrms -f lig.mol2 /mnt/d/Software/PLANTS/kuy/results/lig.pdb_entry_00001_conf_01.mol2`
