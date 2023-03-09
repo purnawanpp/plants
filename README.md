@@ -4,6 +4,7 @@
 1. [Spores](http://www.tcd.uni-konstanz.de/plants_download/) 
 2. [Plants](http://www.tcd.uni-konstanz.de/plants_download/)
 3. [Openbabel](https://github.com/openbabel/openbabel)
+4. [Chimera](https://www.cgl.ucsf.edu/chimera/download.html)
 
 ### Software Installation:
 1. `chmod +x spores`
@@ -12,6 +13,7 @@
 4. `./plants`
 5. Create a [path](https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7) to make it easier to use in the terminal 
 
+## OPSI 1-Tutorial using Protein-Ligand ANTSystem (PLANTS) and Chimera
 ### Preparation and Molecular Docking
 1. Separate protein, ligand and water using spores with the command:`spores --mode splitpdb 3htb.pdb`
 2. Later you will get a file with the protein with the name **protein.mol2** and the ligand with the name **ligand_JZ4167_0.mol2**
@@ -39,7 +41,7 @@
 9. `cluster_structures 10`: determines the number of docked structures that will be clustered.
 10. `cluster_rmsd 2.0`: determines the maximum RMSD value allowed for structures to be clustered. Structures with an RMSD value lower than this value will be clustered together.
 
-### Optional-Molecular Docking using google colab
+## OPSI2-Molecular Docking using google colab
 1. Please run this command in google colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/purnawanpp/plants/blob/main/plants.ipynb)
 
 ### Reference:
