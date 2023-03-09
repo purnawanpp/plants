@@ -23,7 +23,7 @@
 3. Add structure recognition, protonation and generates all combinatorial possible protonation states of the input molecule: `spores --mode protstates ligand_JZ4167_0.mol2 ligprotonated.mol2`
 6. Determine the *binding_site* definition with the command: `plants --mode bind ligand_JZ4167_0.mol2 protein.mol2`
 7. Copy info bindingsite_center and bidingsite_radius into [dock.txt](https://github.com/purnawanpp/plants/blob/main/dock.txt):
-<br> `bindingsite_center 22.7142 -25.2627 -3.283` <br> `bindingsite_radius 3.75624`
+<br> *bindingsite_center 22.7142 -25.2627 -3.283* <br> *bindingsite_radius 3.75624*
 8. Run molecular docking with the command:
 `plants --mode screen dock.txt`
 9. Open the output folder, there will be a file with the name bestranking.csv in that information. The Total Score is the result of the free energy calculation as a result of molecular docking
@@ -51,7 +51,7 @@
 5. Add structure recognition, protonation and generates all combinatorial possible protonation states of the input molecule: `spores --mode protstates lig.mol2 ligprotonated.mol2`
 6. Determine the *binding_site* definition with the command: `plants --mode bind lig.mol2 rec.mol2`
 7. Copy info bindingsite_center and bidingsite_radius into [dock_opsi3.txt](https://github.com/purnawanpp/plants/blob/main/dock_opsi3.txt):
-<br> `bindingsite_center 22.7142 -25.2627 -3.283` <br> `bindingsite_radius 3.75624`
+<br> *bindingsite_center 22.7142 -25.2627 -3.283* <br> *bindingsite_radius 3.75624*
 8. Run molecular docking with the command:
 `plants --mode screen dock_opsi3.txt`
 9. Open the output folder, there will be a file with the name bestranking.csv in that information. The Total Score is the result of the free energy calculation as a result of molecular docking
