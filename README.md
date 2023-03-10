@@ -18,7 +18,7 @@
 
 ## OPSI 2-Tutorial using Protein-Ligand ANTSystem (PLANTS) and Structure PrOtonation and REcognition System  (SPORES)
 ### Preparation and Molecular Docking
-1. Separate protein, ligand and water using spores with the command:`spores --mode splitpdb 3htb.pdb`
+1. This mode will perform a structure recognition and protonation, the output are written in files namely protein.mol2 which contains all protein chains from the input, ligand ligandname_X.mol2 which contain the ligand molecuels (ligand name is generated from the residue name of the ligand in the original file, and X is a running number in case there are two ligands with identical names) and water.mol2 which contains all water molecules from the input fil. Separate protein, ligand and water using spores with the command:`spores --mode splitpdb 3htb.pdb`
 2. Later you will get a file with the protein with the name **protein.mol2** and the ligand with the name **ligand_JZ4167_0.mol2**
 3. Add structure recognition, protonation and generates all combinatorial possible protonation states of the input molecule: `spores --mode protstates ligand_JZ4167_0.mol2 ligprotonated.mol2`
 6. Determine the *binding_site* definition with the command: `plants --mode bind ligand_JZ4167_0.mol2 protein.mol2`
