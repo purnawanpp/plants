@@ -10,8 +10,8 @@ output_dir /content/results
 # write single mol2 files (e.g. for RMSD calculation)
 write_multi_mol2 0
 # binding site definition
-bindingsite_center 22.7142 -25.2627 -3.283
-bindingsite_radius 3.75624
+bindingsite_center 24.3807 25.4771 13.7975
+bindingsite_radius 4.39103
 # cluster algorithm
 cluster_structures 10
 cluster_rmsd 2.0
