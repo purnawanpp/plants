@@ -1,3 +1,4 @@
+# flexible docking with water model
 # scoring function and search settings
 scoring_function chemplp
 search_speed speed1
